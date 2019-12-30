@@ -1,0 +1,14 @@
+1. B and A
+2. 15 and 125
+3. If inputed a number it gives out least significant byte of object. If given a String it takes the first digit.
+4. print would display all the messages without any spaces where as puts prints items with a new line charecter at the end of each message.
+  print will display I amawebDeveloper
+  puts will display I am
+                    a
+                    Web
+                    Developer
+5. beautifulcode.capitalize will display Beautifulcode (only the first letter would be converted into capital) and beautifulcode.upcase will display BEAUTIFULCODE (All in capital)
+6. gets will take everything along with the line break and it will be in a single string. gets.chomp will remove line breaks at the end of input.
+7. ... will exclude the last itenerary where as .. will include the last itenerary.
+8. .reverse will create a new instance of the string in reverse where as .reverse! will reverse the string and assing the value to same variable
+9. Array are indexed with numbers start with zero where as hash are indexed using keys.
