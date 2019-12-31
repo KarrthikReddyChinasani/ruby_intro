@@ -1,0 +1,12 @@
+1. Arguments are basically an object which is passed form the function call where as splat arguments are array of objects which can be passed spearately from the function call.
+2. i. [2, 3, 5, 6, 7]
+   ii. [7, 6, 5, 3, 2]
+   iii. -1
+   iv. 1
+3. symbols are more faster when compared to strings as symbols have a specific object id and are immutable in nature. Strings need to be converted to objects and then hashed where as symbols are directly hashed.
+4. .to_sym and and .itern are aliases to each other and naming is the only change in it.
+5. ||= will assign only if varable is nul, = will assign what so ever even if variable is nil or varable is assigned already.
+6. Block and procs are same code blocks where procs can be reused but the block can be passed to only one function.
+7. Procs and lambdas are exactly the same, except 
+      1. lambdas expect exact number of parameters and procs do not and procs consider extra params as nil.
+      2. Procs return control back to parent once it sees return inside it where as lambda executes everything and then returns the control.
